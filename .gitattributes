@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import random
+n = random.randrange(1,100)
+guess = int(input(“Enter  any number: ”))
+while n ! = guess:
+if guess < n:
+print(“Too low”)
+elif guess > n:
+print(“Too high”)
+guess = int(input(“Enter number again:”))
+print(“you guessed it right!!”)
